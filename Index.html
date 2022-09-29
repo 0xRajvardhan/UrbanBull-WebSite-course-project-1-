@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanBull Fitness</title>
+</head>
+<link rel="stylesheet" href="CSS/Style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+
+
+    /* CSS Reset */
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-image: url(Images/background1.jpeg);
+        background-size: cover;
+        height: 100vh;
+        color: white;
+        object-fit: cover;
+
+    }
+
+    .left {
+        position: absolute;
+        top: 13px;
+        left: 34px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        height: 50px;
+        color: white;
+
+
+    }
+
+    .left img {
+        width: 77px;
+        filter: invert();
+        padding: 10px;
+
+    }
+
+    .left div {
+        font-size: 17px;
+        line-height: 0px;
+        text-align: center;
+    }
+
+
+    .mid {
+        /* display: inline ; */
+        display: block;
+        width: 44%;
+        margin: 13px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+
+        position: absolute;
+        right: 34px;
+        top: 13px;
+        display: inline;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+        margin: 19px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        display: inline-block;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 2px 32px;
+    }
+
+    /* .navbar li a:hover {
+    color: aqua;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 11px 29px;
+} */
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    
+    .btn {
+        font-weight: 700;
+        margin: 14px 9px;
+        padding: 7px 0px;
+        /* border: 2px solid grey; */
+        border-radius: 7px;
+        font-size: 12px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color: black;
+        color: white;
+
+    }
+
+    .btn:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 114px 66px;
+        padding: 75px;
+        width: 31%;
+        border-radius: 12px;
+        opacity: 1;
+        background-color: black;
+    }
+
+    .form-group input {
+        font-size: 25px;
+
+        text-align: center;
+        display: block;
+        padding: 1px;
+        width: 508px;
+        /* border: 2px solid black; */
+        margin: 11px auto;
+        border-radius: 10px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: rgb(241, 228, 49);
+    }
+
+    .container button {
+        display: block;
+        width: 110%;
+        margin: 25px auto;
+        border: 1px solid white;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="Images/gymlogo2.png" alt="">
+            <div> UrbanBull Fitness</div>
+
+
+
+
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li target="_blank"><a href="https://www.facebook.com/officialurbanbull/" target="_blank">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="https://goo.gl/maps/wycmCVA39SkSc2A48" target="_blank">Contact Us</a></li>
+        </div>
+
+
+        <!-- right for buttons and call to action -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+       
+
+    </header>
+    <div class="container">
+        <h1>Join the best GYM in Indore now !!</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="enter name">
+            <input type="text" name="" id="" placeholder="enter age">
+            <input type="text" name="" id="" placeholder="enter gender">
+            <input type="text" name="" id="" placeholder="enter email/phone">
+            
+            
+            
+            
+
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
